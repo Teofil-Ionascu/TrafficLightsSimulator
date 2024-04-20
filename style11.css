@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.traffic-msg{
+    background-color: rgb(197, 196, 196);
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 40px;
+}
+.traffic-box
+{
+    background-color: black;
+    height: 300px;
+    width: 150px;
+    border: none;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.circle{
+    background-color: rgb(65, 64, 64);
+    border: 2px solid white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.active-button{
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px darkgreen;
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+.active-button:active{
+    transform: translateY(2px);
+}
+.red-light{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 0 30px red;
+    display: none;
+}
+.yellow-light{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 0 30px yellow;
+    display: none;
+}
+.green-light{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 0 50px green;
+    display: none;
+}
